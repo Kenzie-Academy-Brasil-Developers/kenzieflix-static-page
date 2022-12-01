@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 120px;
+  width: auto;
+  margin: 30px auto;
+}
+.content {
+  margin-top: 80px;
+}
+.content .main-title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.content .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 700px;
+  margin: 80px auto;
+}
+.content .profile figure img {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: solid 3px black;
+  margin: 20px 20px 15px;
+  width: 160px;
+}
+.content .profile img:hover {
+  border-color: rgba(215, 219, 221, 0.6);
+  background-color: rgba(215, 219, 221, 0.3);
+  transition: 100ms;
+  color: #d7dbdd;
+}
+.content .profile figure figcaption {
+  color: #d7dbdd;
+  text-align: center;
+}
+.content .profile figure:hover figcaption {
+  color: white;
+}
+.content .profile .icon-plus img {
+  border: rgba(215, 219, 221, 0.4) 3px solid;
+  background-color: rgba(215, 219, 221, 0.2);
+  width: 50px;
+  padding: 55px;
+}
+/*ALTERDO ÚLTIMO ÍCONE PARA SER MAIS SIMILAR AO EXEMPLO GIT VISUALIZADO NA ATIVIDADE*/
+.content .profile .icon-plus img:hover {
+  border-color: rgba(215, 219, 221, 0.6);
+  background-color: rgba(215, 219, 221, 0.3);
+  transition: 100ms;
+}
+.button {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.button button {
+  color: #d7dbdd;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: transparent;
+  padding: 15px 40px;
+  border-radius: 8px;
+  border: #d7dbdd 2px solid;
+}
+.button button:hover {
+  background-color: white;
+  border-color: #d7dbdd;
+  color: black;
+  font-weight: 500;
+  transition: 100ms;
+  cursor: pointer;
+}
