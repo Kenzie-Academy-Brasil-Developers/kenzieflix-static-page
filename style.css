@@ -55,15 +55,15 @@ header img {
 }
 .content .profile .icon-plus img {
   border: rgb(215, 219, 221) 3px solid;
-  background-color: rgb(215, 219, 221, 0.6);
-  opacity: 20%;
+  background-color: rgb(215, 219, 221, 0.1);
+  opacity: 70%;
   width: 50px;
   padding: 55px;
 }
 /*ALTERDO ÚLTIMO ÍCONE PARA SER MAIS SIMILAR AO EXEMPLO GIT VISUALIZADO NA ATIVIDADE*/
 .content .profile .icon-plus img:hover {
   border: rgb(215, 219, 221) 3px solid;
-  background-color: rgba(215, 219, 221, 0.4);
+  background-color: rgba(215, 219, 221, 0.3);
   opacity: 70%;
   transition: 1s;
   cursor: pointer;
