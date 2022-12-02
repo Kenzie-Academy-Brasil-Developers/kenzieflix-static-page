@@ -87,6 +87,6 @@ header img {
   border-color: #d7dbdd;
   color: black;
   font-weight: 500;
-  transition: 100ms;
+  transition: 1s;
   cursor: pointer;
 }
