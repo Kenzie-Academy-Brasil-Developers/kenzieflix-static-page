@@ -44,6 +44,7 @@ header img {
   background-color: rgba(215, 219, 221, 0.3);
   transition: 100ms;
   color: #d7dbdd;
+  cursor: pointer;
 }
 .content .profile figure figcaption {
   color: #d7dbdd;
@@ -63,6 +64,7 @@ header img {
   border-color: rgba(215, 219, 221, 0.6);
   background-color: rgba(215, 219, 221, 0.3);
   transition: 100ms;
+  cursor: pointer;
 }
 .button {
   display: block;
