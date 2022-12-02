@@ -35,14 +35,14 @@ header img {
   display: flex;
   align-items: center;
   border-radius: 8px;
-  border: solid 3px black;
+  opacity: 60%;
   margin: 20px 20px 15px;
   width: 160px;
 }
 .content .profile img:hover {
-  border-color: rgba(215, 219, 221, 0.6);
+  opacity: 100%;
   background-color: rgba(215, 219, 221, 0.3);
-  transition: 100ms;
+  transition: 1s;
   color: #d7dbdd;
   cursor: pointer;
 }
@@ -54,16 +54,18 @@ header img {
   color: white;
 }
 .content .profile .icon-plus img {
-  border: rgba(215, 219, 221, 0.4) 3px solid;
-  background-color: rgba(215, 219, 221, 0.2);
+  border: rgb(215, 219, 221) 3px solid;
+  background-color: rgb(215, 219, 221, 0.6);
+  opacity: 20%;
   width: 50px;
   padding: 55px;
 }
 /*ALTERDO ÚLTIMO ÍCONE PARA SER MAIS SIMILAR AO EXEMPLO GIT VISUALIZADO NA ATIVIDADE*/
 .content .profile .icon-plus img:hover {
-  border-color: rgba(215, 219, 221, 0.6);
-  background-color: rgba(215, 219, 221, 0.3);
-  transition: 100ms;
+  border: rgb(215, 219, 221) 3px solid;
+  background-color: rgba(215, 219, 221, 0.4);
+  opacity: 70%;
+  transition: 1s;
   cursor: pointer;
 }
 .button {
