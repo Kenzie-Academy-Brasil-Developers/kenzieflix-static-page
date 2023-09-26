@@ -19,17 +19,8 @@ This is a project aimed at recreating the Netflix homepage in a static format us
 
 ## Functionality
 
-- **Faithful Recreation**: The page is designed to closely resemble the Netflix interface, including the top navigation, movie carousels, and featured images.
+- **Faithful Recreation**: The page is designed to closely resemble the Netflix login interface.
 
-- **Responsiveness**: The page is responsive, adapting to various screen sizes and devices.
-
-- **Possible API Integration**: In the future, consideration may be given to integrating with the Netflix API to fetch real movie and series data.
-
-## How to Contribute
-
-If you'd like to contribute to this project, feel free to [open issues](link_to_issues), provide suggestions, or [submit pull requests](link_to_pull_requests). Any help is welcome!
-
-## How to Use
 
 1. Clone this repository:
 
@@ -41,7 +32,5 @@ git clone https://github.com/your-username/netflix-clone.git
 
 4. If you wish to add interactive functionality, you can include JavaScript code in the corresponding file.
 
-## License
-
-This project is licensed under the [MIT License](license_link). Feel free to use, modify, and distribute it according to the terms of the license.
+ Feel free to use, modify, and distribute it according to the terms of the license.
 
