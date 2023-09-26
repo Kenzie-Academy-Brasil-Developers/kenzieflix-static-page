@@ -8,7 +8,7 @@ Proposta de Layout pelo Excalidraw
 
 
 
-This is a project aimed at recreating the Netflix homepage in a static format using HTML, CSS, and potentially JavaScript. The primary goal is to practice web design and front-end development skills by replicating the look and feel of the famous streaming platform.
+This is a project aimed at recreating the Netflix homepage in a static format using HTML and CSS. The primary goal is to practice web design and front-end development skills by replicating the look and feel of the famous streaming platform.
 
 ## Features and Technologies Used
 
@@ -16,7 +16,6 @@ This is a project aimed at recreating the Netflix homepage in a static format us
 
 - **CSS3**: Styling is done using CSS3 to achieve a visual appearance closely resembling Netflix.
 
-- **JavaScript (Optional)**: If needed, JavaScript can be implemented to add interactive features.
 
 ## Functionality
 
